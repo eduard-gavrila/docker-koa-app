@@ -1,0 +1,10 @@
+.yarn/*
+
+# Node modules
+node_modules
+
+# Logs
+logs
+
+# Dist
+dist

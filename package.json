@@ -1,0 +1,20 @@
+{
+  "name": "koa-app-exercise",
+  "author": "Eduard Gavrila",
+  "license": "MIT",
+  "private": true,
+  "packageManager": "yarn@4.0.1",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
+    "build": "tsc --outDir dist"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.15.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "koa": "^2.15.1"
+  }
+}
