@@ -1,4 +1,6 @@
-.yarn/*
+# Yarn cache
+.yarn
+/.pnp.cjs
 
 # Node modules
 node_modules
@@ -6,5 +8,5 @@ node_modules
 # Logs
 logs
 
-# Dist
+# Local build
 dist
