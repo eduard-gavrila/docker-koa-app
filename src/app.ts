@@ -1,6 +1,4 @@
 import Koa, { Context, Next } from 'koa'
-import fs from 'fs'
-import path from 'path'
 
 import * as logger from './logger'
 

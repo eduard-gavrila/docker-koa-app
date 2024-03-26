@@ -1,6 +1,8 @@
 FROM node:iron-buster-slim
 
-COPY . koa-app/
+COPY package.json tsconfig.json yarn.lock koa-app/
+
+COPY src koa-app/src
 
 WORKDIR /koa-app
 
