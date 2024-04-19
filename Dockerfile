@@ -1,12 +1,14 @@
 FROM node:iron-buster-slim
 
-COPY package.json tsconfig.json yarn.lock koa-app/
+COPY .yarn koa-app/.yarn
 
-COPY src koa-app/src
+COPY package.json tsconfig.json yarn.lock .yarnrc.yml koa-app/
 
 WORKDIR /koa-app
 
 RUN yarn
+
+COPY src src
 
 RUN yarn build
 

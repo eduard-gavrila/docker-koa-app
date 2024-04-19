@@ -1,8 +1,7 @@
-# Exclude all
-*
-
-# Include necessary files
-!src
-!package.json
-!tsconfig.json
-!yarn.lock
+Dockerfile
+Makefile
+README.md
+node_modules
+.nvmrc
+dist
+logs
